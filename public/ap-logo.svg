@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A1C71" />
+      <stop offset="50%" stop-color="#D76D77" />
+      <stop offset="100%" stop-color="#FFAF7B" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shape - Shield form (Athena reference) -->
+  <path d="M200 50 L330 120 L330 250 C330 310, 270 350, 200 370 C130 350, 70 310, 70 250 L70 120 Z" fill="url(#bgGradient)" />
+  
+  <!-- Stylized A -->
+  <path d="M150 280 L200 120 L250 280" stroke="white" stroke-width="12" fill="none" stroke-linejoin="round" />
+  <line x1="170" y1="220" x2="230" y2="220" stroke="white" stroke-width="12" />
+  
+  <!-- Stylized P with star (Astraea) -->
+  <path d="M250 280 L250 180 C300 180, 300 230, 250 230" stroke="white" stroke-width="12" fill="none" />
+  <path d="M290 190 L295 175 L300 190 L315 195 L300 200 L295 215 L290 200 L275 195 Z" fill="white" />
+  
+  <!-- Subtle Greek pattern -->
+  <path d="M160 310 L160 320 L180 320 L180 310 L200 310 L200 320 L220 320 L220 310 L240 310" 
+        stroke="white" stroke-width="2" fill="none" opacity="0.5" />
+</svg>

@@ -1,13 +1,13 @@
-import vite from "/vite.svg";
+import ApLogo from "/ap-logo.svg";
 
 const Header = () => {
   return (
     <section className="bg-slate-700 shadow-md">
       <div className="flex justify-between w-350 mx-auto">
         <div className="flex items-center cursor-pointer sm:w-20 sm:h-20">
-          <img src={vite} alt="vite" className="pl-10" />
-          <div className="text-2xl font-bold text-transparent bg-clip-text bg-radial from-purple-100 to-yellow-500 ">
-            LightgG
+          <img src={ApLogo} alt="AP" className="pl-10" />
+          <div className="text-xl font-bold text-transparent bg-clip-text bg-radial from-yellow-500 to-red-400 ">
+            romaz
           </div>
         </div>
         <ul className="max-md:hidden max-lg:space-x-2 flex justify-center items-center space-x-5">
