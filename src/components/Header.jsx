@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = ({ scrollToSection }) => {
   return (
-    <section className="bg-slate-700 shadow-md min-w-screen">
+    <section className="fixed bg-slate-700 shadow-md min-w-screen">
       <div className="flex justify-between md:ml-20 md:mr-10">
         <div className="flex items-center justify-center cursor-pointer">
           <img src={ApLogo} alt="AP" className="pl-10" />
