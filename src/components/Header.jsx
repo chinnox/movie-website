@@ -6,8 +6,8 @@ const Header = () => {
       <div className="flex justify-between w-350 mx-auto">
         <div className="flex items-center cursor-pointer sm:w-20 sm:h-20">
           <img src={ApLogo} alt="AP" className="pl-10" />
-          <div className="text-xl font-bold text-transparent bg-clip-text bg-radial from-yellow-500 to-red-400 ">
-            romaz
+          <div className="text-lg font-semibold font-mono uppercase text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-400 ">
+            thens
           </div>
         </div>
         <ul className="max-md:hidden max-lg:space-x-2 flex justify-center items-center space-x-5">
