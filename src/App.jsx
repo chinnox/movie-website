@@ -74,13 +74,13 @@ function App() {
     <main>
       <Header />
       <Hero />
-      <h1 className="text-white text-3xl font-bold ml-50 mt-30">
+      <h1 className="text-white text-xl md:text-3xl mt-10 ml-5 font-bold md:ml-50 md:mt-30">
         Latest Movies
       </h1>
       {isLoading ? (
         <p>Loading ...</p>
       ) : (
-        <div className="grid grid-cols-5 w-auto mx-50 items-center justify-center">
+        <div className="grid grid-cols-1 ml-20 md:grid-cols-5 md:w-auto md:mx-50 items-center">
           {movieList.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
           ))}
