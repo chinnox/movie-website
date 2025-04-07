@@ -16,7 +16,7 @@ function App() {
 
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
 
-  useDebounce(() => setDebouncedSearchQuery(searchQuery), 500, [searchQuery]);
+  useDebounce(() => setDebouncedSearchQuery(searchQuery), 600, [searchQuery]);
 
   const BASE_URL = "https://api.themoviedb.org/3";
   const API_KEY =
