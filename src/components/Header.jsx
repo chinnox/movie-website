@@ -1,7 +1,7 @@
 import ApLogo from "/ap-logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Header = () => {
+const Header = ({ scrollToSection }) => {
   return (
     <section className="bg-slate-700 shadow-md min-w-screen">
       <div className="flex justify-between md:ml-20 md:mr-10">
@@ -12,10 +12,16 @@ const Header = () => {
           </div>
         </div>
         <ul className="hidden md:flex md:space-x-2 items-center space-x-5">
-          <li className="text-xl text-slate-100 font-sans px-3 py-2 hover:font-semibold cursor-pointer">
+          <li
+            className="text-xl text-slate-100 font-sans px-3 py-2 hover:font-semibold cursor-pointer"
+            onClick={() => scrollToSection("shows")}
+          >
             TV Shows
           </li>
-          <li className="text-xl text-slate-100 font-sans px-3 py-2 hover:font-semibold cursor-pointer">
+          <li
+            className="text-xl text-slate-100 font-sans px-3 py-2 hover:font-semibold cursor-pointer"
+            onClick={() => scrollToSection("movies")}
+          >
             Movies
           </li>
           <li className="text-xl text-slate-100 font-sans px-3 py-2 hover:font-semibold cursor-pointer">
